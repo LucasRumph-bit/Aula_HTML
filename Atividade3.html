@@ -1,32 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade 3</title>
 </head>
+
 <body>
     <form>
         <fieldset>
-            SISTEMA DE GESTÃO ACADÊMICA
-            <p><h4>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h4></p>
+            <div style="background-color:darkorange; padding: 5px;">SISTEMA DE GESTÃO ACADÊMICA</div>
+            <h4>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h4>
             <br>
+            
             <label for="Login">Login</label>
             <input style="margin-left: 100px;" type="login" id="Login">
+            
             <br>
+            
             <label for="senha">Senha</label>
             <input style="margin-left: 99px;" type="password" id="senha">
+            
             <br>
+           
             <label for="Status">Status</label>
-            <select style="margin-left: 100px;" style="padding-left: 30px;">
+            <select style="margin-left: 99px;" style="padding-left: 30px;">
                 <option>Ativo</option>
                 <option>Inativo</option>
             </select>
+            
             <br>
+            
             <label>Tipo</label>
-            <input type="radio" id="sim">Técnico
+            <input style="margin-left: 106px;" type="radio" id="sim">Técnico
+            <input type="radio" id="sim">Professor
+            <input type="radio" id="sim">Aluno
+            
+            <br>
+            
+            <label for="data">Data Criação</label>
+            <input style="margin-left: 54px;" type="date" id="data">
+            
+            <br>
+            
+            <label for="perfil">Perfil</label>
+            <input style="margin-left: 100px;" type="radio" id="sim">Convidado
+            <input type="radio" id="sim">Administrador
+            
+            <br>
+            
+            <div style="display: flex; align-items: center; margin-top: 10px;">
+                <label text for="obersvaçoes">Observações</label>
+                <textarea style="margin-left: 55px;" cols="40" rows="5"></textarea>
+            </div>
+            
+            <div style="display: flex; align-items: center; margin-top: 10px;">
+                <label style="text-align: center;" for="Módulos">Módulos</label>
+                <div>
+                    <input style="margin-left: 80px;" type="checkbox" id="Módulos"> Compras
+                    <input type="checkbox" id="Módulos"> Biblioteca
+                    <input type="checkbox" id="Módulos"> Acadêmico
+                    <br>
+                    <br>
+                    <input style="margin-left: 80px;" type="checkbox" id="Módulos"> Documentação
+                    <input type="checkbox" id="Módulos"> Recursos Humanos
+                </div>
+            </div>
+            
+            <br>
+            
+            <input type="submit" value="Cadastrar">
+            
+            <input type="reset" value="Excluir">
         </fieldset>
-    </form>
     
+    </form>
+
 </body>
+
 </html>
