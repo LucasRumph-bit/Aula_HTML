@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 3 Display</title>
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+    .bloco1, .bloco2, .bloco3{
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+    }
+    .bloco1{
+        background-color: #ff00ff;
+    }
+    .bloco2{
+        background-color: #0044cc;
+        position: fixed;
+        top: 40px;
+        left: 300px;
+        z-index: 1;
+    }
+    .bloco3{
+        background-color: #ffdd00;
+        position: fixed;
+        z-index: 2;
+    }
+    img{
+        float: right;
+    }
+    .paragrafo-baixo{
+        clear: right;
+    }
+</style>
+<body>
+    <div class="bloco1">
+        Bloco 1
+    </div>
+    <div class="bloco2">
+        Bloco 2
+    </div>
+    <div class="bloco3">
+        Bloco 3 
+    </div>
+    <br>
+    <img src="/Imagens/GettyImages-1243553711.jpg.webp" alt="" width="350px" height="200px">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae eaque facere fugit porro qui error odit recusandae quae officiis, autem aliquam quisquam quasi quis, perspiciatis ab animi! Hic, facilis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae eaque facere fugit porro qui error odit recusandae quae officiis, autem aliquam quisquam quasi quis, perspiciatis ab animi! Hic, facilis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae eaque facere fugit porro qui error odit recusandae quae officiis, autem aliquam quisquam quasi quis, perspiciatis ab animi! Hic, facilis.</p>
+    <p class="paragrafo-baixo"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore aut esse magni culpa illo iure quas, iusto quis maiores cumque qui harum error ratione tempore accusamus nesciunt quasi. Non, eaque!</p>
+</body> 
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4</title>
+</head>
+<style>
+    .paragrafo{
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(44, 175, 77);
+        background-color: rgb(233, 124, 138);
+    }
+    .tabela{
+        border-color:rgb(44, 175, 77);
+        background-image: linear-gradient(to bottom left, rgb(255,255,255), rgb(157,255,156));
+
+    }
+    legend {
+        color: rgb(170, 0, 0);
+    }
+    #mensagem{
+        display: flex; align-items: top; margin-top: 10px;
+    }
+    form{
+        padding-right: 850px;
+        color: rgba(5, 117, 5, 0.877);
+        font-weight: bold;
+    }
+    textarea{
+        resize:none;
+        overflow-y: scroll
+    }
+</style>
+<body>
+    <main>
+        <form action="">
+            <fieldset class="tabela">
+                <legend>
+                    <div class="paragrafo">
+                         Fale conosco
+                    </div>
+                </legend>
+                <label for="name">Nome:</label>
+                <input style="margin-left: 50px;" type="text" id="name">
+                <br>
+                <br>
+                <label for="email">E-mail:</label>
+                <input style="margin-left: 45px;" type="email" id="email">
+                <br>
+                <div id="mensagem">
+                <label for="mensagem">Mensagem:</label>                
+                <textarea  style="margin-left: 22px;" cols="30" rows="5"></textarea>
+                </div>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
