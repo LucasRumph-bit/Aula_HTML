@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar ingresso</title>
+    <script>
+        function funcao1()
+        {
+            alert("Ingresso comprado com sucesso!")
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="article1">CineMax</h1>
+    </header>
+    <nav>
+        <a href="PaginaPrinciapl.html">Inicio</a>
+        <a href="cadastrofilme.html">Cadastrar Filme</a>
+        <a href="cadastrosala.html">Cadastrar Sala/Sessão</a>
+    </nav>
+    <main>
+            <section>
+        <article class="sala">
+            <form class="formulario" action="">
+        <hr>
+        <table>
+            <tr>
+                <td align="right">Sala:
+                <td>
+                <td><select>
+                    <option value="">Sala 1</option>
+                    <option value="">Sala 2</option>
+                    <option value="">Sala 3</option>
+                    <option value="">Sala 4</option>
+                    <option value="">Sala 5</option>
+                    <option value="">Sala 6</option>
+                    <option value="">Sala 7</option>
+                </select> <br> </td>
+            </tr>
+            <tr>
+                <td align="right">Selecionar o filme:
+                <td>
+                <td><select>
+                    <option value="">Vingadores</option>
+                    <option value="">Uncharted</option>
+                    <option value="">Chucky</option>
+                    <option value="">Interestelar</option>
+                </select> </td>
+            </tr>
+            <tr>
+                <td align="right">Ingressos:
+                <td>
+                <td><input type="number" min="0" max="10"><br> </td>
+            </tr>
+            <tr>
+                <td align="right">Sessão:
+                <td>
+                <td> <select>
+                    <option value="">Sessão das 14:00</option>
+                    <option value="">Sessão das 16:00</option>
+                    <option value="">Sessão das 18:00</option>
+                    <option value="">Sessão das 20:00</option>
+                    <option value="">Sessão das 22:00</option>
+                </select> </td>
+            </tr>
+            <table>
+                <button onclick="funcao1()" class="botaosala" style="background-color: #1B6CA8;color: #FFD700;">Confirmar Compra do Ingresso</button>
+    </form>
+        </article>
+    </section>
+
+    </main>
+    <footer style="position: relative;">
+        <p>
+            &copy;Todos os direitos reservados a CinexMAX
+        </p>
+    </footer>
+</body>
+
+</html>

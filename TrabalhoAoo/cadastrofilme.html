@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Filme</title>
+    <link rel="stylesheet" href="style.css">
+        <script>
+        function funcao3()
+        {
+            alert("Filme cadastrado com sucesso!")
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1 id="article1">CineMax</h1>
+    </header>
+    <nav>
+        <a href="PaginaPrinciapl.html">Inicio</a>
+        <a href="cadastrosala.html">Cadastrar Sala/Sessão</a>
+        <a href="compraring.html">Comprar Ingressos</a>
+    </nav>
+    <main>
+            <section>
+        <article class="sala">
+    <form class="formulario" action="">
+        <hr>
+        <table>
+            <tr>
+                <td align="right">Titulo:
+                <td>
+                <td><input type="text"><br> </td>
+            </tr>
+            <tr>
+                <td align="right">Genero:
+                <td>
+                <td><input type="text"><br> </td>
+            </tr>
+            <tr>
+                <td align="right">Duração(min):
+                <td>
+                <td><input type="number" min="60"><br> </td>
+            </tr>
+            <tr>
+                <td align="right">Sinopse:
+                <td>
+                <td><br><textarea></textarea><br> </td>
+            </tr>
+                <tr>
+                <td align="right">Classficação
+                    <br>indicativa:
+                <td>
+                <td><input type="number" min="0" max="18"> </td>
+            </tr>
+            <table>
+                <button onclick="funcao3()" style="background-color: #1B6CA8;color: #FFD700;">Confirmar Cadastro</button>
+    </form>
+        </article>
+    </section>
+    </main>
+    <footer style="position: relative;">
+        <p>
+            &copy;Todos os direitos reservados a CinexMAX
+        </p>
+    </footer>
+</body>
+
+</html>
